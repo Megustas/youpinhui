@@ -1,0 +1,115 @@
+.footer {
+    height: auto;
+    text-align: center;
+    padding: 0;
+    background: #fff;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    padding-bottom: 90px;
+    border-top: 1px solid #e3e3e3;
+}
+.footer .footad {
+    height: 100px;
+    background-color: #f6f6f6;
+}
+.footer .flist {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 26px 0 26px 75px;
+    display: block;
+}
+.footer .flistdl {
+    float: left;
+    width: 138px;
+    height: 114px;
+    padding-left: 42px;
+    border-right: 1px dotted #e6e6e6;
+    text-align: left;
+}
+.footer .flistdl a:hover,.footer .footerinfo a:hover{
+    color: #f70800;
+}
+.footer .flistdl dt {
+    color: #333;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+}
+.footer .flistdl dd {
+    height: 22px;
+    line-height: 22px;
+}
+.footer .flistdl dd a {
+    color: #666;
+}
+.footer dl.nob {
+    border: 0;
+}
+.footer .flistdl2 {
+    margin-left: 20px;
+    float: left;
+}
+.footer .flistdl2 dt{
+    width: 80px;
+    text-align: center;
+}
+.l {
+    float: left;
+}
+.footer .flistdl2 dt em {
+    color: #999;
+}
+.footer .flistdl2 dd {
+    margin: 25px 0 0 25px;
+}
+/* --------------------- */
+.webw{
+    margin: 0 auto;
+    width: 1140px;
+}
+.footerinfo {
+    padding-top: 22px;
+    ine-height: 22px;
+    text-align: center;
+}
+p.footer-list {
+    height: 26px;
+    color: #555;
+}
+p.footer-list a {
+    color: #555;
+    padding: 0 8px;
+    font-size: 13px;
+}
+.yqlink {
+    width: 960px;
+    margin: 0 auto;
+}
+.dlphh {
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-align: left;
+    width: 900px;
+}
+.dlphh em {
+    padding-right: 8px;
+    color: #666;
+}
+.dlphh a {
+    padding-right: 8px;
+    color: #555;
+}
+.r_button {
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #555;
+}
+.r {
+    float: right;
+}
+p.copyright {
+    color: #555;
+    line-height: 22px;
+}

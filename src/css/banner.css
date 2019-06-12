@@ -1,0 +1,47 @@
+.banner{
+    background: #f2f2f2;
+    overflow: hidden;
+    height: 340px;
+    position: relative;
+}
+.banner .slider{
+    width: 8888888px;
+    text-align: center;
+    position: absolute;
+    left: -200px;
+    top: 0;
+}
+.banner .slider p{
+float: left;
+}
+.banner .t{
+    display: none;
+}
+.banner .content{
+    height: 340px;
+    position: relative;
+}
+.banner .content .prev{
+    position: absolute;
+    width: 30px;
+    background:url(../css/img/ia_10417.png) no-repeat 0 0;
+    height: 60px;
+    top: 140px;
+    cursor: pointer;
+    left: 0;
+}
+.banner .content .next{
+    position: absolute;
+    width: 30px;
+    background:url(../css/img/ia_10417.png) no-repeat 0 -76px;
+    height: 60px;
+    top: 140px;
+    cursor: pointer;
+    right: 0;
+}
+.banner .content .prev:hover{
+    background:url(../css/img/ia_10417.png) no-repeat -92px -76px;
+}
+.banner .content .next:hover{
+    background:url(../css/img/ia_10417.png) no-repeat -92px 0;
+}

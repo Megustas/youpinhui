@@ -1,0 +1,111 @@
+.shop_col {
+    padding-bottom: 30px;
+}
+.shop_col ul{
+    width: 1020px;
+}
+.shop_col li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 320px;
+    height: 464px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.shop_col li:hover{
+    border: 1px solid #ff504a;
+}
+.shop_box {
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.i_tv_icon {
+    background: url(./img/ia_10434.png) no-repeat;
+    width: 55px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -27.5px;
+    margin-left: -27.5px;
+    z-index: 4;
+}
+
+.shop_img_box {
+    position: relative;
+    width: 298px;
+    height: 298px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.shop_loading {
+    background: url(./img/ia_10428.jpg) no-repeat 50% 50%;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+}
+
+.shop_text {
+    margin-top: 18px;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.shop_text .shop_tit {
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+    color: #222;
+}
+
+.shop_text .shop_tit:hover {
+    text-decoration: underline
+}
+
+.shop_subtit {
+    color: #f70800;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.shop_price_div {
+    margin-top: 15px;
+    height: 30px;
+    padding: 0 10px 3px 10px;
+}
+.shop_price_new {
+    font-size: 26px;
+    color: #222;
+    font-family: arial;
+    margin-right: 10px;
+}
+.shop_price_new i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.shop_col .shop_price_old {
+    position: relative;
+    margin-top: 14px;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+.shop_price_div .purchased{
+    color: #666;
+    margin-top: 14px;
+}
+.shop_price_div .purchased i{
+    color: #f70800;
+}

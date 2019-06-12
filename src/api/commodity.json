@@ -1,0 +1,92 @@
+{
+    "tv_live": [{
+            "box_tit": "美国跨境RVI III型胶原蛋白球",
+            "price": 9999,
+            "src": "../img/ia_10306.jpg",
+            "time": "2019-7-3 16:10:00"
+        },
+        {
+            "box_tit": "土耳其原装进口Gulbirlik 玫瑰水",
+            "price": 777,
+            "src": "../img/ia_10308.jpg",
+            "time": "2019-6-19 12:10:00"
+        },
+        {
+            "box_tit": "我也不知道标题是什么",
+            "price": 888,
+            "src": "../img/ia_10307.jpg",
+            "time": "2019-6-25 09:10:00"
+        }
+    ],
+    "tv_day_one": [{
+            "box_tit": "莱克碧云泉 后置反渗透滤芯R123",
+            "old": 500,
+            "new": 490,
+            "src": "../img/ia_10361.jpg"
+        },
+        {
+            "box_tit": "跨境直邮HHealth日本护肝精华原液",
+            "new": 1198,
+            "src": "../img/ia_10376.jpg"
+        },
+        {
+            "box_tit": "俄罗斯库班葵花油精炼一级1L（买一赠二）",
+            "old": 93,
+            "new": 59,
+            "src": "../img/103333.jpg"
+        },
+        {
+            "box_tit": "贝尔莱德DH迷你干湿熨烫机",
+            "new": 399,
+            "src": "../img/ia_10350.jpg"
+        },
+        {
+            "box_tit": "鹰嘴芒果8斤装（清甜少渣 多汁爽口）",
+            "new": 39,
+            "old": 58,
+            "src": "../img/103334.jpg"
+        }
+    ],
+    "shop_col_index": [{
+            "box_tit": "德国米技炉周年庆纪念装",
+            "new": 1999,
+            "old": "¥2555",
+            "src": "../img/ia_10317.jpg",
+            "purchased": "390人",
+            "live": "true",
+            "shop_subtit": "微晶面板 大组合"
+    },
+    {
+            "box_tit": "YINER音儿优雅连衣裙",
+            "new": 998,
+            "src": "../img/ia_10368.jpg",
+            "purchased": "446人"
+    },
+    {
+            "box_tit": "彤歌3D印花御品缎上衣-女",
+            "new": 298,
+            "src": "../img/ia_10346.jpg",
+            "purchased": "888人"
+    },
+    {
+            "box_tit": "贝尔莱德DH迷你干湿熨烫机",
+            "new": 399,
+            "src": "../img/ia_10350.jpg",
+            "purchased": "20人",
+            "shop_subtit": "618特供 干湿双烫"
+    },
+    {
+            "box_tit": "贝尔莱德DH迷你干湿熨烫机",
+            "new": 399,
+            "src": "../img/ia_10350.jpg",
+            "purchased": "20人",
+            "shop_subtit": "618特供 干湿双烫"
+},
+{
+            "box_tit": "贝尔莱德DH迷你干湿熨烫机",
+            "new": 399,
+            "src": "../img/ia_10350.jpg",
+            "purchased": "20人",
+            "shop_subtit": "618特供 干湿双烫"
+}]
+}

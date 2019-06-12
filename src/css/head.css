@@ -1,0 +1,329 @@
+#page {
+    /* overflow: hidden; */
+    
+}
+
+/* .clearfix.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+} */
+.top_nav {
+    height: 28px;
+    background: #f6f6f6;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.notice {
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    width: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.notice span {
+    background: url(../css/img/ia_10420.png) no-repeat;
+    background-position: -98px -204px;
+    color: #666;
+    padding-left: 18px;
+}
+
+.show_notice {
+    /* float: left; */
+    height: 28px;
+    /* margin-top:-28px; */
+    position: absolute;
+    left: 57px;
+    top: 0px;
+
+}
+
+.show_notice li {
+    /* width: 210px; */
+    color: #666;
+    height: 28px;
+    text-overflow: ellipsis;
+}
+
+.show_notice li a {
+    display: inline-block;
+    height: 28px;
+}
+
+.top_nav .tool_nav {
+    float: right;
+    line-height: 28px;
+
+}
+
+.top_nav .tool_nav li {
+    float: left;
+    color: #666;
+}
+
+.top_nav .tool_nav li .li_options {
+    line-height: 28px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+.tool_nav .phone {
+    position: relative;
+}
+
+.tool_nav .li_phone a {
+    padding-left: 12px;
+    height: 28px;
+    display: inline-block;
+}
+
+.tool_nav .li_phone a .t {
+    display: inline-block;
+    width: 9px;
+    height: 28px;
+    float: left;
+    margin-right: 5px;
+    background: url(../css/img/ia_10418.png) no-repeat;
+    background-position-y: -24px;
+}
+
+.tool_nav .phone .down_app {
+    position: absolute;
+    top: 28px;
+    left: -6px;
+    padding: 10px;
+    display: none;
+    background: #fff;
+    z-index: 6666;
+}
+
+.phone .down_app p {
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    /* line-height: 18px; */
+}
+
+
+/* -------头部----- */
+.h {
+    background: #fff;
+}
+
+.l {
+    float: left;
+}
+
+.header {
+    height: 100px;
+    padding: 20px 0 0;
+
+}
+
+.header .logodiv {
+    background: url(../css/img/ia_10421.png) no-repeat;
+    width: 206px;
+    height: 75px;
+    margin-right: 82px;
+}
+
+.header .logodiv h2 {
+    text-indent: -99999px;
+}
+
+/* 搜索框 */
+.header .search {
+    width: 420px;
+    /* margin-top:6px; */
+    text-align: left;
+    height: 36px;
+    border: 2px solid red;
+    margin-top: 10px;
+}
+
+.search .search_text {
+    /* border: 2px solid red; */
+    width: 350px;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+}
+
+.search .b {
+    height: 100%;
+    background: red;
+    color: #fff;
+    width: 66px;
+    border: none;
+}
+
+.header .r {
+    float: right;
+    width: 186px;
+    height: 63px;
+    background: url(../css/img/ia_10424.png);
+}
+
+/* 导航栏 */
+
+.main-nav {
+    background-color: #f70800;
+    height: 40px;
+}
+
+.nav-ul {
+    padding-right: 134px;
+    position: relative;
+    height: 40px;
+    z-index: 888;
+    font-family: "\5FAE\8F6F\96C5\9ED1", tahoma, arial, "\u5b8b\u4f53", sans-serif;
+}
+
+.nav-ul .channel {
+    display: block;
+    float: left;
+    text-align: center;
+    height: 40px;
+}
+
+.nav-ul li.channel a {
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-ul .channel .a-tvicon {
+    background: url(./img/ia_10453.png) no-repeat 20px center;
+    padding-left: 45px;
+}
+
+.nav-ul .channel a:hover {
+    background-color: #e20700;
+}
+
+.nav-ul li:nth-child(1) {
+    background: #bc0600;
+}
+
+/* 导航分类菜单 */
+.main-nav .navclass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: left;
+}
+
+.main-nav .dlnav {
+    position: relative;
+    width: 134px;
+    z-index: 999;
+}
+
+.main-nav .dlnav .sysp {
+    height: 40px;
+    width: 134px;
+    text-align: left;
+    background: url(./img/ia_10413.jpg) no-repeat 0 -65px;
+}
+
+.main-nav .dlnav .sysp:hover {
+    background: url(./img/ia_10413.jpg) no-repeat 0 -133px;
+}
+
+.main-nav .navclass .cate {
+    width: 1000px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: auto;
+}
+
+.main-nav .navclass .fllist {
+    height: auto;
+    width: 998px;
+    overflow: hidden;
+    padding-top: 1px;
+    border: 1px solid #f70800;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.main-nav .navclass .kind {
+    width: 166px;
+    padding: 0 15px;
+    float: left;
+    border-right: 1px solid #ededed;
+    height: 100%;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+    overflow: hidden;
+}
+
+.main-nav .navclass .kind .kindtop {
+    height: 42px;
+    padding-left: 41px;
+    position: relative;
+    line-height: 46px;
+    border-bottom: 1px dotted #d9d9d9;
+    margin-top: 6px;
+    padding-bottom: 6px;
+}
+
+.main-nav .navclass .kind .kindtop .stat {
+    position: absolute;
+    width: 30px;
+    height: 42px;
+    left: 12px;
+    top: -5px;
+}
+
+.main-nav .navclass .kind .kindtop .stat img {
+    width: 30px;
+    height: 42px;
+}
+
+.main-nav .navclass .kindtop a {
+    font-family: "\5FAE\8F6F\96C5\9ED1", tahoma, arial, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-nav .kindbot {
+    padding-top: 5px;
+    padding-bottom: 17px;
+    height: auto;
+}
+
+.main-nav .kind .kindbot a {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", tahoma, arial, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    color: #555;
+    font-size: 12px;
+}
+
+.main-nav .kind .kindbot a:hover {
+    color: #f70800;
+}
+.main-nav .navclass .cate{
+    display: none;
+}
