@@ -1,0 +1,238 @@
+body{
+    background: #fff;
+}
+.welland {
+    width: 968px;
+    margin: 0 auto;
+    font: 12px '宋体';
+    padding-bottom: 50px;
+    box-sizing:content-box;
+}
+.l{
+    float: left;
+}
+.EWM {
+    position: absolute;
+    top: 152px;
+    left: 50%;
+    margin: 0 0 0 -628px;
+}
+.land_logo {
+    height: 112px;
+}
+.land_logo_img {
+    height: 57px;
+    margin-top: 31px;
+    float: left;
+}
+.land_logo_img a {
+    width: 185px;
+    background: url(../css/img/welland.gif) 0 0 no-repeat;
+}
+.land_logo_img a, .land_logo_img span {
+    display: block;
+    height: 57px;
+    overflow: hidden;
+    float: left;
+}
+.land_logo_img span.reglogo {
+    width: 168px;
+    background: url(../css/img/welreg_01.gif) 0 0 no-repeat;
+}
+.kefuphonenum {
+    color: #525252;
+    padding-top: 70px;
+    float: right;
+}
+.kefuphonenum a {
+    color: #0089cf;
+}
+/* ----------- */
+.regnav {
+    height: 42px;
+    margin-top: 5px;
+}
+.regnav ul li.on {
+    background: url(../css/img/welreg_01.gif) 0 -55px no-repeat;
+    color: #FFF;
+    display: block;
+    float: left;
+    margin-right: 2px;
+    width: 225px;
+    height: 42px;
+    cursor: pointer;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.regnav ul li span.icon4 {
+    background: url(../css/img/welreg_01.gif) 0 -233px no-repeat;
+    height: 16px;
+    padding-left: 20px;
+}
+.regnav_tips {
+    float: right;
+    margin-top: 15px;
+}
+.cg {
+    color: #0089CF;
+}
+.regnav_tips em {
+    font-size: 13px;
+    color: #eb0007;
+}
+
+.land_con {
+    border: 2px solid #ff8400;
+    width: 968px;
+    padding-top: 45px;
+    box-sizing:content-box;
+}
+
+.phonereg{
+    box-sizing:content-box;
+}
+.item {
+    height: 52px;
+    box-sizing:content-box;
+}
+.item span {
+    display: block;
+    text-align: right;
+    width: 202px;
+    padding-right: 15px;
+    height: 37px;
+    line-height: 37px;
+    color: #666666;
+    float: left;
+}
+.item-ifo {
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+.regk {
+    width: 351px;
+    height: 37px;
+    line-height: 25px;
+    padding: 5px 25px 5px 10px;
+    border: 1px solid #a2a2a2;
+}
+.ztips {
+    width: 281px;
+    height: 37px;
+    line-height: 35px;
+    padding-left: 9px;
+    background-color: #f6f6f6;
+    border: 1px solid #e9e9e9;
+    color: #555;
+    position: absolute;
+    left: 353px;
+    top: 0;
+}
+.land_ico, .land_ico4, .land_ico6, .land_ico7 {
+    width: 16px;
+    height: 16px;
+    background: url(../css/img/welland.gif) 0 -229px no-repeat;
+}
+.i-name {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    z-index: 10;
+}
+#itemh {
+    height: 44px;
+}
+.yzmdiv{
+    width: 77px;
+    height: 37px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.yhm_text1 {
+    font: 15px Arial;
+    color: #222;
+    width: 124px;
+    padding: 5px 10px 5px 10px;
+    height: 37px;
+    line-height: 25px;
+    border: 1px solid #a2a2a2;
+}
+.yimg {
+    line-height: 35px;
+}
+.yimg img {
+    margin: 3px 5px 0;
+}
+.land_ico2, .land_ico3 {
+    width: 16px;
+    height: 19px;
+    background: url(../css/img/welland.gif) 0 -251px no-repeat;
+}
+.ymasage {
+    width: 126px;
+    height: 30px;
+    border: none;
+    background: url(../css/img/welreg_01.gif) 0 -144px no-repeat;
+    cursor: pointer;
+    margin: 6px 0 0 10px;
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    color: #858585;
+}
+#itemh2 {
+    height: 40px;
+}
+.checkx {
+    display: block;
+    height: 13px;
+    margin-right: 4px;
+}
+#itemh3 {
+    height: 117px;
+}
+.registsubmit {
+    width: 126px;
+    height: 33px;
+    border: none;
+    background: url(../css/img/welreg_01.gif) 0 -175px no-repeat;
+    cursor: pointer;
+}
+.login_tips {
+    padding: 25px 0;
+    color: #888;
+    width: 351px;
+    line-height: 22px;
+}
+.login_tips p {
+    color: #666;
+    font-weight: 600;
+}
+.ztips {
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    background-color: #f6f6f6;
+    border: 1px solid #e9e9e9;
+    color: #555;
+    position: absolute;
+    left: 353px;
+    top: 0;
+}
+.etips {
+    background-color: #fff3f3;
+    border: 1px solid #ffadb0;
+    color: #eb0007;
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    position: absolute;
+    left: 353px;
+    top: 0;
+}

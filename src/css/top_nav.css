@@ -1,0 +1,102 @@
+.top_nav {
+    height: 28px;
+    background: #f6f6f6;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.notice {
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    width: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.notice span {
+    background: url(../css/img/ia_10420.png) no-repeat;
+    background-position: -98px -204px;
+    color: #666;
+    padding-left: 18px;
+}
+
+.show_notice {
+    /* float: left; */
+    height: 28px;
+    /* margin-top:-28px; */
+    position: absolute;
+    left: 57px;
+    top: 0px;
+
+}
+
+.show_notice li {
+    /* width: 210px; */
+    color: #666;
+    height: 28px;
+    text-overflow: ellipsis;
+}
+
+.show_notice li a {
+    display: inline-block;
+    height: 28px;
+}
+
+.top_nav .tool_nav {
+    float: right;
+    line-height: 28px;
+
+}
+
+.top_nav .tool_nav li {
+    float: left;
+    color: #666;
+}
+
+.top_nav .tool_nav li .li_options {
+    line-height: 28px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+.tool_nav .phone {
+    position: relative;
+}
+
+.tool_nav .li_phone a {
+    padding-left: 12px;
+    height: 28px;
+    display: inline-block;
+}
+
+.tool_nav .li_phone a .t {
+    display: inline-block;
+    width: 9px;
+    height: 28px;
+    float: left;
+    margin-right: 5px;
+    background: url(../css/img/ia_10418.png) no-repeat;
+    background-position-y: -24px;
+}
+
+.tool_nav .phone .down_app {
+    position: absolute;
+    top: 28px;
+    left: -6px;
+    padding: 10px;
+    display: none;
+    background: #fff;
+    z-index: 6666;
+}
+
+.phone .down_app p {
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    /* line-height: 18px; */
+}

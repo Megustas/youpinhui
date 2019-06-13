@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/top_nav.css">
+    <link rel="stylesheet" href="../css/reg.css">
+</head>
+
+<body>
+    <include src="../tpl/top_nav.html"></include>
+    <div class="welland">
+        <img src="../css/img/logEWM.gif" alt="" class="EWM">
+        <!--LOGO-->
+        <div class="land_logo">
+            <input type="hidden" value="" id="jihuo">
+            <div class="land_logo_img">
+                <a href="../html/index.html" target="_blank"></a>
+                <span class="reglogo"></span>
+            </div>
+            <p class="kefuphonenum">已经注册，<a target="_blank" href="../html/login.html">现在登录》</a></p>
+        </div>
+        <!--LOGO OVER-->
+        <!--regnav begin-->
+        <div class="regnav">
+            <ul>
+                <li class="regnav1 on"><span class="icon4">注册/TV激活</span></li>
+                <!--<li  class="regnav2"><span class="icon2">邮箱注册</span></li>-->
+                <!--<li class="regnav3"><span class="icon3">电视用户激活</span></li>-->
+            </ul>
+            <label class="regnav_tips">如有疑问请点击<a class="cg" href="/help.html"
+                    target="_blank">帮助中心</a>，或拨打客服热线：<em>400-707-0707</em></label>
+        </div>
+        <!--regnav OVER-->
+        <!--框内开始-->
+        <div class="land_con clearfix">
+            <!--手机注册开始-->
+            <div class="phonereg">
+                <input type="hidden" id="tishi" value="">
+                <form action="../api/get-form.php" method="get">
+                    <div class="item phone-regName">
+                        <span class="l labname1">手机号码：</span>
+                        <div class="item-ifo app1">
+                            <input class="regk text1" type="text" value="" id="sj_code" name="phone">
+                            <div id="phonea1" class="i-name land_ico"></div>
+                            <div class="a"></div>
+                        </div>
+                    </div>
+                    <div class="item phone-regName" id="itemh">
+                        <span class="l labname1">验证码：</span>
+                        <div class="item-ifo l" id="yan_check_code">
+                            <input type="text" name="pcheck_code" class="yhm_text1 l text8" id="yaz_ma_pcheck_code" value="">
+                            <label class="yimg">
+                                <div class="yzmdiv"></div>
+                                看不清，
+                                <a href="javascript:;" class="code_refresh cg">换一张</a>
+                            </label>
+                            <div class="a"></div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="item phone-regName">
+                        <span class="l labname1">设置密码：</span>
+                        <div class="l item-ifo app2">
+                            <input class="regk text2" type="password" value="" name="pass">
+                            <div id="setpassword" class="i-name land_ico2"></div>
+                            <div class="a"></div>
+                        </div>
+                    </div>
+                    <div class="item phone-regName">
+                        <span class="l labname1">确认密码：</span>
+                        <div class="l item-ifo">
+                            <input class="regk text3" type="password" value="">
+                            <div id="confirm" class="i-name land_ico3"></div>
+                            <div class="a"></div>
+                        </div>
+                    </div>
+                    <div class="item phone-regName" id="itemh">
+                        <span class="l labname1">短信验证码：</span>
+                        <div class="item-ifo l">
+                            <input type="text" class="yhm_text1 l" value="" id="verif_code">
+                            <label class="l">
+                                <input class="ymasage" id="btn5" value="获取短信验证码" type="button">
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="item phone-regName" id="itemh2">
+                        <span class="l labname1"></span>
+                        <div class="item-ifo l">
+                            <input type="checkbox" class="l checkx" id="checkx1" checked="checked">
+                            <label class="l checkx">
+                                我已阅读并同意<a class="cg" href="/article-48.html" target="_blank">《惠买用户服务承诺》</a>
+                            </label>
+                            <input type="hidden" value="" id="hidden1">
+                        </div>
+                    </div>
+                    <div class="item phone-regName" id="itemh3">
+                        <span class="l labname1"></span>
+                        <div class="item-ifo l">
+                            <input type="button" id="btn1" class="registsubmit" value="">
+                            <br>
+                            <div class="login_tips">
+                                <p>温馨提示：</p>
+                                惠买升级为电视购物大全，其中收录了优购物、时尚购物等多家优质购物频道，您可以选购更多优质商品，欢迎您的光临！
+                            </div>
+                            <!-- <label>如有疑问请点击<a class="cg" href="/help.html" target="_blank">帮助中心</a>，或拨打客服热线：<em>400-707-0707</em></label> -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--框内结束-->
+    </div>
+</body>
+<script src="../lib/include.js"></script>
+<script src="../lib/jquery-3.4.1.js"></script>
+<script src="../js/reg.js"></script>
+<script src="../js/top_nav.js"></script>
+
+</html>
