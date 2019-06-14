@@ -108,11 +108,12 @@ $(function(){
                     $.get({
                         url:"../api/get-form.php",
                         data:{
+                            sta:0,
                             user:usm,
                             password:paw
                         },
                         success(data){
-                            console.log(data); 
+                            alert(data)
                         }
                     })
                 }else if(!$("#checkx1").prop("checked")) {

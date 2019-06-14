@@ -1,0 +1,197 @@
+.welland {
+    width: 968px;
+    margin: 0 auto;
+    font: 12px '宋体';
+    padding-bottom: 50px;
+}
+*{
+    box-sizing:content-box;
+}
+body{
+    background: #fff;
+}
+.EWM {
+    position: absolute;
+    top: 152px;
+    left: 50%;
+    margin: 0 0 0 -628px;
+}
+.land_logo {
+    height: 112px;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.land_logo_img a {
+    width: 185px;
+    background: url(../css/img/welland.gif) 0 0 no-repeat;
+}
+.land_logo_img {
+    height: 57px;
+    margin-top: 31px;
+}
+.land_logo_img a, .land_logo_img span {
+    display: block;
+    height: 57px;
+    overflow: hidden;
+}
+.land_logo_img span {
+    width: 169px;
+    background: url(../css/img/welland.gif) 0 -58px no-repeat;
+}
+.kefuphonenum {
+    color: #525252;
+    padding-top: 70px;
+}
+.kefuphonenum a {
+    color: #0089cf;
+}
+.kefuphonenum strong {
+    font: 15px '微软雅黑';
+    color: #eb0007;
+    font-weight: normal;
+}
+#land {
+    padding-top: 0;
+}
+.land_con_l {
+    width: 532px;
+    padding-left: 133px;
+    color: #666666;
+    padding-top: 62px;
+    box-sizing:content-box;
+}
+.land_item {
+    width: 351px;
+    height: 65px;
+}
+.land_item span {
+    display: block;
+    height: 12px;
+    padding-bottom: 7px;
+}
+.item-ifo {
+    position: relative;
+    z-index: 1;
+}
+#yz_user {
+    color: #ccc;
+}
+.yhm_text {
+    font: 13px Arial;
+    color: #222;
+    width: 315px;
+    padding: 5px 25px 5px 10px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #a2a2a2;
+}
+.land_ico, .land_ico4, .land_ico6, .land_ico7 {
+    width: 16px;
+    height: 16px;
+    background: url(../css/img/welland.gif) 0 -229px no-repeat;
+}
+.land_ico2, .land_ico3, .land_ico5, .land_ico9, .land_ico10 {
+    width: 16px;
+    height: 19px;
+    background: url(../css/img/welland.gif) 0 -251px no-repeat;
+}
+.i-name {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    z-index: 10;
+}
+.land_item2 {
+    width: 351px;
+    height: 31px;
+}
+.checkbox {
+    display: block;
+    width: 13px;
+    height: 13px;
+}
+.mjy {
+    height: 13px;
+    line-height: 13px;
+    display: block;
+    margin-left: 6px;
+    _height: 15px;
+    _line-height: 15px;
+}
+.wjma a {
+    color: #0089cf;
+}
+.login-btn {
+    height: 37px;
+    margin-top: 10px;
+}
+.btn-img {
+    width: 351px;
+    height: 37px;
+    background: url(../css/img/welland.gif) 0 -117px no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.login_tips {
+    padding: 25px 0;
+    color: #888;
+    width: 351px;
+    line-height: 22px;
+}
+.login_tips p {
+    color: #666;
+    font-weight: 600;
+}
+.land_item3 {
+    width: 219px;
+    height: 57px;
+}
+.land_item3 span {
+    font: 14px '微软雅黑';
+    color: #555555;
+}
+.land_item3 a {
+    width: 142px;
+    height: 32px;
+    background: url(../css/img/welland.gif) 0 -155px no-repeat;
+    line-height: 32px;
+    text-align: center;
+    color: #ff6000;
+    margin-top: 10px;
+    display: block;
+}
+.mg42 {
+    margin-top: 42px;
+}
+.land_item3 {
+    width: 219px;
+    height: 57px;
+}
+.land_con_r {
+    height: 380px;
+}
+.land_con_r {
+    width: 217px;
+    background-color: #fff6ec;
+    height: 316px;
+    padding-left: 82px;
+    padding-top: 58px;
+}
+.etips {
+    height: 20px;
+    width: 340px;
+    color: #eb0007;
+    padding-left: 10px;
+    line-height: 20px;
+    border: 1px solid #ffadb0;
+    background-color: #fff3f3;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 37px;
+    *top: 38px;
+}

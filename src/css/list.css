@@ -1,0 +1,252 @@
+.classify {
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    font-family: "微软雅黑", "黑体";
+    color: #333333;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.classify-con {
+    width: 968px;
+    margin: 0 auto;
+}
+
+.border1 {
+    border: 1px solid #ededed;
+    border-top: none;
+    width: 966px;
+    overflow: hidden;
+    height: 86px;
+}
+
+.classify-menu {
+    background: #FFF;
+}
+
+.menulist {
+    width: 104%;
+}
+
+.listthemone {
+    height: 75px;
+    width: 80px;
+    margin-right: 28px;
+}
+
+.menu-icon {
+    width: 80px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.menuname {
+    height: 15px;
+    width: 80px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.menuname a.hovercolor {
+    color: #eb0007;
+}
+
+.list-tittle {
+    height: 34px;
+    margin: 26px 0 17px;
+}
+
+.classify-tittle {
+    height: 28px;
+    margin-top: 6px;
+    overflow: hidden;
+    line-height: 0.99;
+    margin-left: 8px;
+}
+
+.category {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.list-con {
+    margin-top: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.good-list {
+    width: 968px;
+}
+
+.good-list-nav {
+    height: 56px;
+}
+
+.nav-sorting {
+    width: 500px;
+    margin-left: 10px;
+}
+
+.nav-sorting-list {
+    height: 20px;
+    margin-top: 22px;
+}
+
+.nav-sorting-list li {
+    float: left;
+    font-size: 12px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.nav-sorting-list li.clickbg {
+    height: 30px;
+    background: url(../css/img/jian.png) center 17px no-repeat;
+}
+
+.nav-sorting-list li span.jian {
+    color: #FFF;
+    background: #00bfcf;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+}
+
+.nav-sorting-list li span {
+    display: block;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.nav-sorting-list li.mgr12 {
+    margin-right: 12px;
+}
+
+.nav-sorting-list li span.navspan {
+    display: block;
+}
+
+.nav-sorting-list li.default {
+    background-position: 32px -328px;
+
+}
+
+.nav-sorting-list li.nav-price {
+    margin-right: 5px;
+    width: 51px;
+    background: url(../css/img/classify.png) 32px -328px;
+    background-repeat: no-repeat;
+}
+
+.nav-sorting-list li span.navspan:hover {
+    background: #00bfcf;
+    color: #FFF;
+}
+
+.nav-sorting-list li.nav-price:hover {
+    background: url(../css/img/classify.jpg)0 -177px no-repeat #00bfcf;
+    color: #FFF;
+}
+.smPruArea {
+    width: 105%;
+}
+.pruwrap {
+    width: 314px;
+    height: 439px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+.pruwrap dl.mg1 {
+    margin: 1px;
+    border: 1px solid #d6d6d6;
+}
+.pruwrap dl.pruwrapdl {
+    width: 310px;
+    background: #FFF;
+    overflow: hidden;
+    height: 435px;
+}
+.pruwrapdl dt, .pruwrapdl2 dt {
+    position: relative;
+    width: 310px;
+    height: 311px;
+    overflow: hidden;
+    border-bottom: 1px solid #f1f1f1;
+}
+.goodsphoto {
+    width: 310px;
+    height: 312px;
+    overflow: hidden;
+}
+.goods-tittle {
+    height: 64px;
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 26px;
+    padding: 12px 16px 0;
+    background: #FAFAFA;
+}
+.goods-picmass {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    height: 60px;
+    background: #FAFAFA;
+}
+.pdl16 {
+    padding-left: 16px;
+}
+.price {
+    width: 210px;
+    height: 42px;
+    overflow: hidden;
+    padding: 10px 0 0;
+}
+.now-price {
+    font: 500 22px Arial;
+    line-height: 1;
+    margin-right: 10px;
+}
+.now-price span {
+    font: 500 20px '微软雅黑';
+    line-height: 1;
+}
+.review {
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 12px;
+    _height: 14px;
+    _line-height: 14px;
+}
+.review {
+    width: 75px;
+    text-align: left;
+}
+.review a {
+    color: #00aebd;
+}
+.goodsphoto a img {
+    width: 310px;
+    height: 312px;
+}
+.page_f {
+    color: #161616;
+    margin-bottom: 30px;
+    *margin-top: 20px;
+    width: 968px;
+}
