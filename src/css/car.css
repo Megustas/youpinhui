@@ -1,0 +1,199 @@
+#FLOW_CART_GOODS .cartGoodsTitle {
+    height: 60px;
+    line-height: 60px;
+    font-family: "PingFang SC Regular";
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+  #FLOW_CART_GOODS .cartGoodsTitle .choose {
+    margin-left: 40px;
+    text-align: left;
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsTitle .choose input {
+    border: 1px solid #e4e4e4;
+    background-color: #fdfdfd;
+    padding: 5px;
+    margin: 5px;
+  }
+  #FLOW_CART_GOODS .cartGoodsTitle .goods {
+    margin-left: 2%;
+    text-align: left;
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsTitle .left {
+    float: left;
+  }
+  #FLOW_CART_GOODS .manjian_desc {
+    width: 1120px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+  #FLOW_CART_GOODS .manjian_desc a {
+    display: block;
+    padding: 1px 0px 0px 5px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  #FLOW_CART_GOODS .manjian_desc a .mj_tb {
+    color: #ff2837;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  #FLOW_CART_GOODS .manjian_desc a .mj_name {
+    padding-right: 3px;
+  }
+  #FLOW_CART_GOODS .manjian_desc a #manjian_desc_707 b {
+    color: #ff2837;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox {
+    padding: 20px 0px 0px;
+    color: #333;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .choose {
+    margin-left: 40px;
+    margin-top: 35px;
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .choose input {
+    border: 1px solid #e4e4e4;
+    background-color: #fdfdfd;
+    padding: 5px;
+    margin: 5px;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .left {
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .left a {
+    float: left;
+    color: #333;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .left a img {
+    width: 70px;
+    height: 70px;
+    padding: 5px 4px;
+    border: solid 1px #ebebeb;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .left .goods_name {
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .other {
+    margin-top: 30px;
+    text-align: center;
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .other a {
+    float: none;
+    color: #ff9b00;
+    cursor: pointer;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number {
+    margin-top: 22px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number .inputBg {
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 3PX;
+    -moz-border-radius: 3PX;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    background-color: #fdfdfd;
+    width: 46px;
+    height: 25px;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number .goods_cut {
+    width: 11px;
+    height: 14px;
+    cursor: pointer;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number .goods_cut img {
+    width: 11px;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number .goods_add {
+    width: 11px;
+    height: 14px;
+    cursor: pointer;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .number .goods_add img {
+    width: 11px;
+  }
+  #FLOW_CART_GOODS .cartGoodsBox .xian {
+    width: 100%;
+    height: 1px;
+    border-bottom: solid 1px #ebebeb;
+    margin-top: 112px;
+  }
+  #FLOW_CART_GOODS .cart_one {
+    width: 1200px;
+    margin: 20px auto;
+    margin-bottom: 150px;
+  }
+  #FLOW_CART_GOODS .cart_one .cart_onetop {
+    width: 1140px;
+    padding: 20px 20px 20px 40px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+  #FLOW_CART_GOODS .cart_one .cart_onetop input {
+    border: 1px solid #e4e4e4;
+    background-color: #fdfdfd;
+    padding: 5px;
+    margin: 5px;
+  }
+  #FLOW_CART_GOODS .cart_one .cart_onetop span b {
+    color: #ff2837;
+  }
+  #FLOW_CART_GOODS .cart_one .cart_onebottom {
+    margin-top: 10px;
+    padding: 15px 0px;
+  }
+  #FLOW_CART_GOODS .cart_one .cart_onebottom a {
+    display: inline-block;
+    width: 190px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    background-color: #c3c3c3;
+    color: #fff;
+    border: solid 1px #c3c3c3;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-decoration: none;
+    margin-right: 8px;
+    float: left;
+    cursor: pointer;
+  }

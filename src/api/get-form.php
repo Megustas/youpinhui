@@ -6,6 +6,7 @@ $sta = $_GET["sta"];
 $json_string = file_get_contents('get-form.json');
 $data = json_decode( $json_string, true );//第二个参数保证将jSON字符串解码成数组
 //一个用来写入JSON文件的关系数组
+$ok  = true;
 if($sta==0){
     for($i = 0;$i<count($data);$i++){
         if($usm == $data[$i]["name"]){
@@ -25,14 +26,17 @@ if($sta==0){
     }
 }else if($sta == 1){
     for($i = 0;$i<count($data);$i++){
-        if($usm == $data[$i]["name"]&&$paw == $data[$i]["paw"]){
+        if($usm == $data[$i]["name"]&&$paw == $data[$i]["paw"]){   
+            $ok = true;
+        }
+        if($usm == $data[$i]["name"]&&$paw != $data[$i]["paw"]||$usm != $data[$i]["name"]&&$paw == $data[$i]["paw"]){
+            $ok = false;
+        }
+        if($ok){
             echo "登录成功";
-            break;
-        }else if($usm == $data[$i]["name"]&&$paw != $data[$i]["paw"]||$usm != $data[$i]["name"]&&$paw == $data[$i]["paw"]){
-            echo "用户名或者密码错误";
-            break;
-        }else if(($usm != $data[$i]["name"]) && ($paw != $data[$i]["paw"]) && $i==(count($data)-1)){
-            echo "用户不存在";
+            return;
+        }else if($i==count($data)-1&&$ok == false){
+            echo "账号或者密码错误";
         }
     }
 }
